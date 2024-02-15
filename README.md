@@ -9,9 +9,8 @@ Compile the C program using a C compiler such as GCC:
 gcc monochrome.c -o monochrome
 
 Run the program by providing the path to the input BMP file as a command-line argument:
-bash
-Copy code
 ./monochrome input_image.bmp
+
 The program will generate a new BMP file named output_image.bmp in the same directory, containing the black and white version of the input image.
 
 
