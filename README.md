@@ -8,8 +8,8 @@ git clone https://github.com/raresc4/monochrome-magic.git
 Compile the C program using a C compiler such as GCC:
 gcc monochrome.c -o monochrome
 
-Run the program by providing the path to the input BMP file as a command-line argument:
-./monochrome input_image.bmp
+Run the program by providing the path to the input BMP file and to the output file as a command-line argument:
+./monochrome input_image.bmp output_image.bmp
 
 The program will generate a new BMP file named output_image.bmp in the same directory, containing the black and white version of the input image.
 
